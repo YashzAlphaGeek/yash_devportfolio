@@ -146,6 +146,20 @@ body{background:var(--ink);color:var(--body-t);font-family:var(--sans);overflow-
   margin-bottom: 30px;
 }
 
+.ts-img-wrap.multi{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:6px;
+}
+
+.ts-flow{
+margin-top:10px;
+font-size:.75rem;
+color:var(--amber);
+font-family:var(--mono);
+letter-spacing:.04em;
+}
+
 .ts-tags {
   display: flex;
   flex-wrap: wrap;
@@ -981,8 +995,8 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
     <div class="h-role">// SOFTWARE ARCHITECT · SYSTEMS ENGINEER · MBSE · AUTOMOTIVE PLATFORMS</div>
 
     <p class="h-bio">
-      9+ years operating at the intersection of <strong style="color:var(--cyan)">software engineering</strong> and <strong style="color:var(--cyan)">systems architecture</strong> — writing production code and shaping the models that govern how complex systems are built. From SysML diagrams to Spring Boot services, I speak both languages fluently.
-    </p>
+  9+ years operating at the intersection of <strong style="color:var(--cyan)">software engineering</strong> and <strong style="color:var(--cyan)">systems architecture</strong> building production systems with Java, C++, Python, Spring Boot, and Quarkus while shaping the models that govern how complex systems are designed. From SysML diagrams in MBSE tools like Rhapsody and PREEvision to scalable backend services, I speak both languages fluently.
+</p>
 
     <div class="h-cta">
       <a href="#projects" class="btn-a">
@@ -1022,13 +1036,13 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
       </div>
     </div>
     <div class="sp-row">
-      <div class="sp-k">DOMAINS</div>
-      <div class="sp-v">
-        <span class="sp-badge c">AUTOMOTIVE</span>
-        <span class="sp-badge c">MEDICAL</span>
-        <span class="sp-badge a">MBSE</span>
-      </div>
-    </div>
+  <div class="sp-k">DOMAINS</div>
+  <div class="sp-v">
+    <span class="sp-badge c">AUTOMOTIVE</span>
+    <span class="sp-badge c">MEDICAL</span>
+    <span class="sp-badge c">IT / ENTERPRISE</span>
+  </div>
+</div>
     <div class="sp-row">
       <div class="sp-k">OEM CLIENTS</div>
       <div class="sp-v">BMW · Mercedes-Benz · VW Group (Volkswagen AG, Audi AG, Porsche AG, Lamborghini S.p.A.)</div>
@@ -1083,8 +1097,8 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
                alt="Yashwanth Parameswaran"/>
           <div class="about-portrait-lbl">// Yashwanth</div>
         </div>
-        <p>I'm a <strong>Senior System Architect</strong> who lives at the intersection of software engineering and systems engineering — equally at home writing Java microservices, Rust backends, and gRPC APIs as I am modelling SysML architectures, building Rhapsody plugins, and designing MBSE frameworks for safety-critical systems.</p>
-        <p>Currently at <strong>Capgemini Deutschland</strong>, working with major OEMs including BMW, Mercedes-Benz, Volkswagen Group, McLaren, and Lamborghini, as well as in the medical domain (Philips). My edge: I don't choose between the software side and the systems side — I <strong>own both</strong>. That means I can bridge the gap most architects can't cross.</p>
+        <p>I'm a <strong>Senior System Architect</strong> who lives at the intersection of software engineering and systems engineering equally at home writing Java microservices, Rust backends, and gRPC APIs as I am modelling SysML architectures, building Rhapsody plugins, and designing MBSE frameworks for safety-critical systems.</p>
+        <p>Currently at <strong>Capgemini Deutschland</strong>, working with major OEMs including BMW, Mercedes-Benz, Volkswagen Group, McLaren, and Lamborghini, as well as in the medical domain (Philips). My edge: I don't choose between the software side and the systems side I <strong>own both</strong>. That means I can bridge the gap most architects can't cross.</p>
         <p>Education: <strong>B.E. Electronics &amp; Communication Engineering</strong> — Sri Eshwar College of Engineering (CGPA 8.54, College Topper).</p>
       </div>
 
@@ -1265,11 +1279,273 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
 </div>
 </div>
 
+<!-- ═══ CERTIFICATIONS ════════════════════════════ -->
+<div style="background:var(--deep);border-top:1px solid var(--wire2);border-bottom:1px solid var(--wire2)">
+<div class="wrap">
+<section style="padding:96px 0;position:relative" id="certs">
+  <div class="sec-ghost">03</div>
+  <div class="eyebrow rv"><div class="ey-n">03</div>CERTIFICATIONS<div class="ey-l"></div></div>
+  <h2 class="sh rv">CONTINUOUS<br/><span class="ghost">LEARNING</span></h2>
+
+  <div class="cert-grid">
+    <div class="cert-c rv"><span class="c-ico">🏗️</span><div class="c-title">Solution Architect Certification — Level 1</div><div class="c-org">Dassault Systèmes</div><div class="c-date">Aug 2024</div></div>
+    <div class="cert-c rv d1"><span class="c-ico">⚙️</span><div class="c-title">FMEA Specialist</div><div class="c-org">AIGPE™</div><div class="c-date">Sep 2024</div></div>
+    <div class="cert-c rv d2"><span class="c-ico">🤖</span><div class="c-title">Getting Started with Generative AI APIs</div><div class="c-org">Codio</div><div class="c-date">Oct 2025</div></div>
+    <div class="cert-c rv d3"><span class="c-ico">🔌</span><div class="c-title">gRPC Masterclass with Java &amp; Spring Boot</div><div class="c-org">Udemy</div><div class="c-date">Sep 2025</div></div>
+    <div class="cert-c rv"><span class="c-ico">🌐</span><div class="c-title">Data Mesh Architecture: Core Concepts</div><div class="c-org">LinkedIn Learning</div><div class="c-date">Sep 2025</div></div>
+    <div class="cert-c rv d1"><span class="c-ico">🐙</span><div class="c-title">Career Essentials in GitHub — Professional Certificate</div><div class="c-org">GitHub</div><div class="c-date">Jul 2025</div></div>
+    <div class="cert-c rv d2"><span class="c-ico">📐</span><div class="c-title">Design Techniques Using UML &amp; SysML-B</div><div class="c-org">Bosch</div><div class="c-date">Jan 2022</div></div>
+    <div class="cert-c rv d3"><span class="c-ico">🇩🇪</span><div class="c-title">German Language A2</div><div class="c-org">Bosch Language Institute</div><div class="c-date">Oct 2021</div></div>
+    <div class="cert-c rv"><span class="c-ico">🤖</span><div class="c-title">Claude Code in Action</div><div class="c-org">Anthropic Education</div><div class="c-date">Feb 2026</div></div>
+    <div class="cert-c rv d1"><span class="c-ico">🧠</span><div class="c-title">Neural Networks and Deep Learning</div><div class="c-org">DeepLearning.AI</div><div class="c-date">Feb 2026</div></div>
+    <div class="cert-c rv d2"><span class="c-ico">🤖</span><div class="c-title">MCP: Build Rich-Context AI Apps with Anthropic</div><div class="c-org">DeepLearning.AI</div><div class="c-date">Feb 2026</div></div>
+    <div class="cert-c rv d3"><span class="c-ico">☁️</span><div class="c-title">Natural Language Processing on Google Cloud</div><div class="c-org">Google Cloud Skills</div><div class="c-date">Jan 2026</div></div>
+  </div>
+</section>
+</div>
+</div>
+
+<div style="background:var(--deep);border-top:1px solid var(--wire2);border-bottom:1px solid var(--wire2)">
+  <div class="wrap">
+    <section style="padding:96px 0;position:relative" id="tailored">
+      <div class="sec-ghost">04</div>
+      <div class="eyebrow rv"><div class="ey-n">04</div>TAILORED SOLUTIONS<div class="ey-l"></div></div>
+      <h2 class="sh rv">REAL WORK<br/><span class="ghost">REAL IMPACT</span></h2>
+      <p class="rv" style="font-family:var(--mono);font-size:.64rem;color:var(--muted);letter-spacing:.1em;margin-bottom:40px;max-width:600px">
+        10 activities from production engineering environments — each built, owned and shipped.
+        Click <span style="color:var(--amber)">▶ DEEP DIVE</span> on any card to see how to explain it.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="ts-card wide2">
+          <div class="ts-img-wrap" title="Click to enlarge">
+            <img src="images/INTEGRATION OF ARCHITECTURE TOOLS.png" alt="Integrations" onclick="openLbox(this.src)" />
+            <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
+          </div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 01 · TOOLCHAIN ARCHITECT</div>
+            <div class="ts-title">INTEGRATION OF ARCHITECTURE TOOLS</div>
+            <p class="ts-desc">Built bidirectional integration pipelines across the full automotive toolchain—Rhapsody, EA, Cameo, PREEvision, and VSPEC. Established the "Glue" that allows architectural data to flow without manual intervention. </p>
+            <div class="ts-tags">
+              <span class="ts-tag hot">IBM Rhapsody</span><span class="ts-tag hot">PREEvision</span><span class="ts-tag hot">Sparx EA</span><span class="ts-tag">Cameo</span><span class="ts-tag">OSLC</span>
+            </div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"I architected the integrations that eliminated manual copy-paste between modeling environments. Each integration maintained model fidelity and layout preservation, reducing migration overhead by ~40%."</div>
+          </div>
+        </article>
+
+        <article class="ts-card wide2">
+          <div class="ts-img-wrap" title="Click to enlarge">
+            <img src="images/logical-arch-migration.png" alt="SOA Pipeline" onclick="openLbox(this.src)" />
+             <img src="images/LA.png" alt="SOA Pipeline" onclick="openLbox(this.src)" />
+            <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
+          </div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 02 · SERVICE-ORIENTED ARCHITECTURE</div>
+            <div class="ts-title">RHAPSODY TO PREEVISION: SERVICE REALIZATION</div>
+            <p class="ts-desc">Architected the semantic transformation pipeline to realize <strong>Logical Functions</strong> as <strong>Service Interfaces</strong>. Essential for SDV platforms, it bridges functional intent in Rhapsody with SOME/IP deployment in PREEvision. </p>
+            <div class="ts-tags">
+              <span class="ts-tag hot">SOA</span><span class="ts-tag hot">PREEvision</span><span class="ts-tag hot">SOME/IP</span><span class="ts-tag">VFB Mapping</span><span class="ts-tag">Adaptive AUTOSAR</span>
+            </div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This activity serves as the 'Contract-First' design engine. I mapped functional ports to service methods and events, ensuring that the architecture remains hardware-agnostic while ready for high-speed Ethernet orchestration."</div>
+          </div>
+        </article>
+
+        <article class="ts-card">
+          <div class="ts-img-wrap"><img src="images/AUTOSAR SWComposition Importer.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 03 · AUTOMATION · JAVA/EMF</div>
+            <div class="ts-title">AUTOSAR SWC IMPORTER</div>
+            <p class="ts-desc">Advanced Rhapsody plugin that auto-generates complete SWComposition architectures from ARXML metadata, handling complex port interface logic.</p>
+            <div class="ts-tags"><span class="ts-tag hot">AUTOSAR</span><span class="ts-tag">Java Plugin</span><span class="ts-tag">Jenkins CI</span></div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This plugin automated the tedious process of importing AUTOSAR software components into Rhapsody. I built it using Java and EMF to parse ARXML files and generate the complete software architecture, including all port interfaces and data types. It saved weeks of manual modeling work per project."</div>
+          </div>
+        </article>
+
+        <article class="ts-card">
+          <div class="ts-img-wrap"><img src="images/Trends-Service and TIS Library Complete Flow-HL.svg" onclick="openLbox(this.src)" /><img src="images/Model-Based Embedded Dev.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 04 · CAMEO · C++ · GRPC</div>
+            <div class="ts-title">MODEL-BASED EMBEDDED DEV</div>
+            <p class="ts-desc">End-to-end SysML flow for automotive sensor data pipelines, translating architectural requirements into validated C++/gRPC service implementations.</p>
+            <div class="ts-tags"><span class="ts-tag hot">Cameo</span><span class="ts-tag hot">gRPC</span><span class="ts-tag">C++</span><span class="ts-tag">Sensor Middleware</span></div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This was a complete model-driven development pipeline. I started with SysML requirements in Cameo, generated C++ code for sensor data processing, and implemented gRPC services for real-time communication. The system was deployed on embedded hardware and validated against automotive safety standards."</div>
+          </div>
+        </article>
+
+        <article class="ts-card">
+          <div class="ts-img-wrap"><img src="images/Business Req → System Architecture.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 05 · CLOUD-NATIVE ARCHITECTURE</div>
+            <div class="ts-title">BUSINESS REQ → SYSTEM ARCHITECTURE</div>
+            <p class="ts-desc">Translated BMW sustainability/circularity requirements into an integrated 3DX–Azure ecosystem, establishing a single source of truth for CO₂ transparency.</p>
+            <div class="ts-tags"><span class="ts-tag hot">BMW</span><span class="ts-tag hot">3DEXPERIENCE</span><span class="ts-tag">Azure Cloud</span></div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This project bridged business sustainability goals with technical architecture. I worked with BMW stakeholders to understand their CO₂ transparency requirements, then designed a cloud-native system using 3DEXPERIENCE for PLM data and Azure for analytics, ensuring complete traceability from business requirements to system implementation."</div>
+          </div>
+        </article>
+
+        <article class="ts-card">
+          <div class="ts-img-wrap"><img src="images/SysArch.png" onclick="openLbox(this.src)" /><img src="images/SW Component Detailed Design.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 06 · ASPICE · SAFETY</div>
+            <div class="ts-title">MBSE & SE PRACTICE LEADERSHIP</div>
+            <p class="ts-desc">Full SysML L0/L1/L2 modeling aligned with ISO 26262 and ASPICE standards. Defined cross-domain consistency and traceability workflows in DNG. </p>
+            <div class="ts-tags"><span class="ts-tag hot">SysML</span><span class="ts-tag hot">ISO 26262</span><span class="ts-tag">ASPICE</span><span class="ts-tag">DNG</span></div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"As the MBSE practice lead, I established the modeling standards and processes for the entire organization. This included creating SysML profiles, defining traceability rules between requirements and architecture, and training teams on ISO 26262 compliant modeling practices. The result was consistent, auditable system designs across all projects."</div>
+          </div>
+        </article>
+
+        <article class="ts-card wide2">
+          <div class="ts-img-wrap"><img src="images/MBSE Metamodel Deployment.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕ ENLARGE</span></div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 07 · V-MODEL LIFECYCLE</div>
+            <div class="ts-title">TOOL DEPLOYMENT OF MBSE METAMODEL</div>
+            <p class="ts-desc">Deployed the structural metamodel backbone that connects Requirements, Safety, and PLE across the entire vehicle lifecycle. This ensures horizontal traceability and prevents architectural silo formation.</p>
+            <div class="ts-tags"><span class="ts-tag hot">Metamodel</span><span class="ts-tag hot">V-Model</span><span class="ts-tag">Product Line Engineering</span><span class="ts-tag">V&V</span></div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This was the foundational metamodel deployment that enabled consistent MBSE across the entire organization. I designed and implemented the core data structures that link requirements management, safety analysis, and product line engineering. This created a unified data model that supports the V-model lifecycle from concept to validation."</div>
+          </div>
+        </article>
+
+        <article class="ts-card">
+          <div class="ts-img-wrap"><img src="images/COM.png" onclick="openLbox(this.src)" /><img src="images/DerivingRequirements.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 08 · AUTOSAR COM</div>
+            <div class="ts-title">SW ARCHITECTURE — AIRBAG SYSTEMS</div>
+            <p class="ts-desc">Detailed decomposition of the AUTOSAR COM layer into software units. Mapped functional flow and state transitions for safety-critical unit validation.</p>
+            <div class="ts-tags"><span class="ts-tag hot">AUTOSAR Classic</span><span class="ts-tag hot">SW Design</span><span class="ts-tag">ISO 26262</span></div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This was a critical safety architecture for airbag ECU software. I decomposed the AUTOSAR COM layer into atomic software units, ensuring each component met ISO 26262 safety requirements. The design included fault-tolerant communication patterns and state machine logic for reliable airbag deployment under all conditions."</div>
+          </div>
+        </article>
+
+        <article class="ts-card">
+          <div class="ts-img-wrap" title="Click to enlarge">
+            <img src="images/Cameo-3DEXPERIENCE-Migration.png" alt="Cameo to 3DEXPERIENCE Migration Flow" onclick="openLbox(this.src)" />
+            <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
+          </div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 09 · MIGRATION · PLM INTEGRATION</div>
+            <div class="ts-title">CAMEO TO 3DEXPERIENCE MIGRATION</div>
+            <p class="ts-desc">Designed and developed migration plugins enabling seamless system model transformation from Cameo Systems Modeler to the 3DEXPERIENCE Platform, while coordinating testing and integration with Dassault Systèmes R&D for Volkswagen Group onePLM initiatives.</p>
+            <div class="ts-tags">
+              <span class="ts-tag hot">Cameo</span><span class="ts-tag hot">3DEXPERIENCE</span><span class="ts-tag hot">onePLM</span><span class="ts-tag">Migration Plugins</span><span class="ts-tag">Dassault Systèmes</span>
+            </div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"This was a strategic migration initiative that bridged No Magic's modeling environment with Dassault's enterprise PLM platform. I developed custom transformation plugins that preserved model semantics, relationships, and metadata during the migration process. Coordinating directly with Dassault R&D ensured the plugins met enterprise-grade reliability standards and integrated seamlessly with Volkswagen's onePLM deployment."</div>
+          </div>
+        </article>
+
+        <article class="ts-card wide2">
+          <div class="ts-img-wrap white-bg">
+            <img src="images/EA.png" alt="EA/CUBAS" onclick="openLbox(this.src)" />
+            <span class="ts-img-zoom-hint black-text">⊕ ENLARGE</span>
+          </div>
+          <div class="ts-body">
+            <div class="ts-slide-n">SLIDE 10 · CROSS-TOOLCHAIN ARCHITECTURE</div>
+            <div class="ts-title">EA, CUBAS & RHAPSODY: UNIFIED MBSE</div>
+            <p class="ts-desc">Bridged the gap between low-level <strong>Continental CUBAS</strong> ECU implementation (signal-based) and high-level service design. This established a unified source of truth across diverse Business Units. </p>
+            <div class="ts-tags">
+              <span class="ts-tag hot">Enterprise Architect</span><span class="ts-tag hot">CUBAS</span><span class="ts-tag hot">AUTOSAR Classic</span><span class="ts-tag">Rhapsody Sync</span>
+            </div>
+            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+            <div class="ts-note">"I managed the metamodel conflict between legacy signal-centric logic in EA/CUBAS and the service-oriented intent of modern Rhapsody models. This allowed for seamless function migration while maintaining 100% traceability to DNG requirements."</div>
+          </div>
+        </article>
+
+         <!-- ENHANCED TRACEABILITY USING REST APIs -->
+  <article class="ts-card wide2">
+    <div class="ts-img-wrap" title="Click to enlarge">
+      <img src="images/DNG-Rhapsody.png" alt="REST API Traceability" onclick="openLbox(this.src)" />
+      <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
+    </div>
+    <div class="ts-body">
+      <div class="ts-slide-n">SLIDE 11 · MBSE INTEGRATION</div>
+      <div class="ts-title">ENHANCED TRACEABILITY USING REST APIs</div>
+      <p class="ts-desc">
+        Improved traceability between requirements and architectural elements by integrating IBM DNG with Rhapsody using REST APIs, enabling real-time synchronization and impact analysis.
+      </p>
+      <div class="ts-tags">
+        <span class="ts-tag hot">MBSE</span>
+        <span class="ts-tag">IBM DNG</span>
+        <span class="ts-tag">Rhapsody</span>
+        <span class="ts-tag">REST API</span>
+      </div>
+      <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+      <div class="ts-note">
+        Developed REST APIs for OSLC integration, linking requirements in IBM DNG with architecture elements in Rhapsody. Configured APIs to improve visibility, automate synchronization, and support system engineering processes for validation and impact analysis.
+      </div>
+    </div>
+  </article>
+
+  <!-- WEB PORTAL FOR VEHICLE CONFIGURATION FILE -->
+  <article class="ts-card wide2">
+    <div class="ts-img-wrap" title="Click to enlarge">
+      <img src="images/VEHICLE CONFIGURATION.png" alt="VCF Portal" onclick="openLbox(this.src)" />
+      <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
+    </div>
+    <div class="ts-body">
+      <div class="ts-slide-n">SLIDE 12 · VEHICLE CONFIGURATION</div>
+      <div class="ts-title">WEB PORTAL FOR VEHICLE CONFIGURATION</div>
+      <p class="ts-desc">
+        Developed a web portal to automate Vehicle Configuration File (VCF) generation, integrating PREEvision to manage rulesets and ensure accurate OEM configurations.
+      </p>
+      <div class="ts-tags">
+        <span class="ts-tag hot">Automotive</span>
+        <span class="ts-tag">PREEvision</span>
+        <span class="ts-tag">VCF</span>
+        <span class="ts-tag">Web Portal</span>
+      </div>
+      <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+      <div class="ts-note">
+        Streamlined VCF generation by automatically applying vehicle parameters and rulesets. Centralized configuration management improved consistency and facilitated quality assurance for OEM standards.
+      Vehicle Variant → Feature Model → Architecture → VCF → ECU Deployment
+      </div>
+    </div>
+  </article>
+
+  <!-- ALKS MODELING & EXPORT PLUGIN -->
+  <article class="ts-card wide2">
+    <div class="ts-img-wrap" title="Click to enlarge">
+      <img src="images/ALKS Modeling & Export Plugin Development.png" alt="ALKS Export Plugin" onclick="openLbox(this.src)" />
+      <img src="images/ExportPlugin.png" alt="ExportPlugin" onclick="openLbox(this.src)" />
+      <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
+    </div>
+    <div class="ts-body">
+      <div class="ts-slide-n">SLIDE 13 · TOOLCHAIN DEVELOPMENT</div>
+      <div class="ts-title">ALKS MODELING & EXPORT PLUGIN</div>
+      <p class="ts-desc">
+        Developed an ALKS modeling and export plugin, integrating with external tools to enhance system design, traceability, and regulatory compliance.
+      </p>
+      <div class="ts-tags">
+        <span class="ts-tag hot">MBSE</span>
+        <span class="ts-tag">ALKS</span>
+        <span class="ts-tag">codeBeamer</span>
+      </div>
+      <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
+      <div class="ts-note">
+        The export plugin streamlined traceability between system design and requirements, improving verification, validation, and overall project quality. Integration with codeBeamer allowed for efficient impact analysis and compliance checks.
+      </div>
+    </div>
+  </article>
+
+
+      </div>
+    </section>
+  </div>
+</div>
+
 <!-- ═══ PROJECTS ══════════════════════════════════ -->
 <div class="wrap">
 <section style="padding:96px 0;position:relative" id="projects">
-  <div class="sec-ghost">04</div>
-  <div class="eyebrow rv"><div class="ey-n">04</div>PROJECTS<div class="ey-l"></div></div>
+  <div class="sec-ghost">05</div>
+  <div class="eyebrow rv"><div class="ey-n">05</div>PROJECTS<div class="ey-l"></div></div>
   <h2 class="sh rv">THINGS I'VE<br/><span class="ghost">ACTUALLY BUILT</span></h2>
 
   <div class="proj-filters rv">
@@ -1451,7 +1727,11 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
     </a>
   </div>
 </div>
-  </div>
+  </div> <!-- end of proj-grid -->
+
+<div class="proj-note" style="text-align:center; margin-top:24px; font-style:italic; color:rgba(255,255,255,0.7);">
+  And many more projects are in my private repositories available upon request.
+</div>
 
   <button class="more-btn rv" id="smb" onclick="toggleMore(this)">
     <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
@@ -1460,195 +1740,12 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
 </section>
 </div>
 
-<!-- ═══ CERTIFICATIONS ════════════════════════════ -->
-<div style="background:var(--deep);border-top:1px solid var(--wire2);border-bottom:1px solid var(--wire2)">
-<div class="wrap">
-<section style="padding:96px 0;position:relative" id="certs">
-  <div class="sec-ghost">05</div>
-  <div class="eyebrow rv"><div class="ey-n">05</div>CERTIFICATIONS<div class="ey-l"></div></div>
-  <h2 class="sh rv">CONTINUOUS<br/><span class="ghost">LEARNING</span></h2>
-
-  <div class="cert-grid">
-    <div class="cert-c rv"><span class="c-ico">🏗️</span><div class="c-title">Solution Architect Certification — Level 1</div><div class="c-org">Dassault Systèmes</div><div class="c-date">Aug 2024</div></div>
-    <div class="cert-c rv d1"><span class="c-ico">⚙️</span><div class="c-title">FMEA Specialist</div><div class="c-org">AIGPE™</div><div class="c-date">Sep 2024</div></div>
-    <div class="cert-c rv d2"><span class="c-ico">🤖</span><div class="c-title">Getting Started with Generative AI APIs</div><div class="c-org">Codio</div><div class="c-date">Oct 2025</div></div>
-    <div class="cert-c rv d3"><span class="c-ico">🔌</span><div class="c-title">gRPC Masterclass with Java &amp; Spring Boot</div><div class="c-org">Udemy</div><div class="c-date">Sep 2025</div></div>
-    <div class="cert-c rv"><span class="c-ico">🌐</span><div class="c-title">Data Mesh Architecture: Core Concepts</div><div class="c-org">LinkedIn Learning</div><div class="c-date">Sep 2025</div></div>
-    <div class="cert-c rv d1"><span class="c-ico">🐙</span><div class="c-title">Career Essentials in GitHub — Professional Certificate</div><div class="c-org">GitHub</div><div class="c-date">Jul 2025</div></div>
-    <div class="cert-c rv d2"><span class="c-ico">📐</span><div class="c-title">Design Techniques Using UML &amp; SysML-B</div><div class="c-org">Bosch</div><div class="c-date">Jan 2022</div></div>
-    <div class="cert-c rv d3"><span class="c-ico">🇩🇪</span><div class="c-title">German Language A2</div><div class="c-org">Bosch Language Institute</div><div class="c-date">Oct 2021</div></div>
-    <div class="cert-c rv"><span class="c-ico">🤖</span><div class="c-title">Claude Code in Action</div><div class="c-org">Anthropic Education</div><div class="c-date">Feb 2026</div></div>
-    <div class="cert-c rv d1"><span class="c-ico">🧠</span><div class="c-title">Neural Networks and Deep Learning</div><div class="c-org">DeepLearning.AI</div><div class="c-date">Feb 2026</div></div>
-    <div class="cert-c rv d2"><span class="c-ico">🤖</span><div class="c-title">MCP: Build Rich-Context AI Apps with Anthropic</div><div class="c-org">DeepLearning.AI</div><div class="c-date">Feb 2026</div></div>
-    <div class="cert-c rv d3"><span class="c-ico">☁️</span><div class="c-title">Natural Language Processing on Google Cloud</div><div class="c-org">Google Cloud Skills</div><div class="c-date">Jan 2026</div></div>
-  </div>
-</section>
-</div>
-</div>
-
-<div style="background:var(--deep);border-top:1px solid var(--wire2);border-bottom:1px solid var(--wire2)">
-  <div class="wrap">
-    <section style="padding:96px 0;position:relative" id="tailored">
-      <div class="sec-ghost">06</div>
-      <div class="eyebrow rv"><div class="ey-n">06</div>TAILORED SOLUTIONS<div class="ey-l"></div></div>
-      <h2 class="sh rv">REAL WORK<br/><span class="ghost">REAL IMPACT</span></h2>
-      <p class="rv" style="font-family:var(--mono);font-size:.64rem;color:var(--muted);letter-spacing:.1em;margin-bottom:40px;max-width:600px">
-        10 activities from production engineering environments — each built, owned and shipped.
-        Click <span style="color:var(--amber)">▶ DEEP DIVE</span> on any card to see how to explain it.
-      </p>
-
-      <div class="project-grid">
-
-        <article class="ts-card wide2">
-          <div class="ts-img-wrap" title="Click to enlarge">
-            <img src="images/INTEGRATION OF ARCHITECTURE TOOLS.png" alt="Integrations" onclick="openLbox(this.src)" />
-            <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
-          </div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 01 · TOOLCHAIN ARCHITECT</div>
-            <div class="ts-title">INTEGRATION OF ARCHITECTURE TOOLS</div>
-            <p class="ts-desc">Built bidirectional integration pipelines across the full automotive toolchain—Rhapsody, EA, Cameo, PREEvision, and VSPEC. Established the "Glue" that allows architectural data to flow without manual intervention. </p>
-            <div class="ts-tags">
-              <span class="ts-tag hot">IBM Rhapsody</span><span class="ts-tag hot">PREEvision</span><span class="ts-tag hot">Sparx EA</span><span class="ts-tag">Cameo</span><span class="ts-tag">OSLC</span>
-            </div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"I architected the integrations that eliminated manual copy-paste between modeling environments. Each integration maintained model fidelity and layout preservation, reducing migration overhead by ~40%."</div>
-          </div>
-        </article>
-
-        <article class="ts-card wide2">
-          <div class="ts-img-wrap" title="Click to enlarge">
-            <img src="images/logical-arch-migration.png" alt="SOA Pipeline" onclick="openLbox(this.src)" />
-             <img src="images/LA.png" alt="SOA Pipeline" onclick="openLbox(this.src)" />
-            <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
-          </div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 02 · SERVICE-ORIENTED ARCHITECTURE</div>
-            <div class="ts-title">RHAPSODY TO PREEVISION: SERVICE REALIZATION</div>
-            <p class="ts-desc">Architected the semantic transformation pipeline to realize <strong>Logical Functions</strong> as <strong>Service Interfaces</strong>. Essential for SDV platforms, it bridges functional intent in Rhapsody with SOME/IP deployment in PREEvision. </p>
-            <div class="ts-tags">
-              <span class="ts-tag hot">SOA</span><span class="ts-tag hot">PREEvision</span><span class="ts-tag hot">SOME/IP</span><span class="ts-tag">VFB Mapping</span><span class="ts-tag">Adaptive AUTOSAR</span>
-            </div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This activity serves as the 'Contract-First' design engine. I mapped functional ports to service methods and events, ensuring that the architecture remains hardware-agnostic while ready for high-speed Ethernet orchestration."</div>
-          </div>
-        </article>
-
-        <article class="ts-card">
-          <div class="ts-img-wrap"><img src="images/AUTOSAR SWComposition Importer.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 03 · AUTOMATION · JAVA/EMF</div>
-            <div class="ts-title">AUTOSAR SWC IMPORTER</div>
-            <p class="ts-desc">Advanced Rhapsody plugin that auto-generates complete SWComposition architectures from ARXML metadata, handling complex port interface logic.</p>
-            <div class="ts-tags"><span class="ts-tag hot">AUTOSAR</span><span class="ts-tag">Java Plugin</span><span class="ts-tag">Jenkins CI</span></div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This plugin automated the tedious process of importing AUTOSAR software components into Rhapsody. I built it using Java and EMF to parse ARXML files and generate the complete software architecture, including all port interfaces and data types. It saved weeks of manual modeling work per project."</div>
-          </div>
-        </article>
-
-        <article class="ts-card">
-          <div class="ts-img-wrap"><img src="images/Trends-Service and TIS Library Complete Flow-HL.svg" onclick="openLbox(this.src)" /><img src="images/Model-Based Embedded Dev.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 04 · CAMEO · C++ · GRPC</div>
-            <div class="ts-title">MODEL-BASED EMBEDDED DEV</div>
-            <p class="ts-desc">End-to-end SysML flow for automotive sensor data pipelines, translating architectural requirements into validated C++/gRPC service implementations.</p>
-            <div class="ts-tags"><span class="ts-tag hot">Cameo</span><span class="ts-tag hot">gRPC</span><span class="ts-tag">C++</span><span class="ts-tag">Sensor Middleware</span></div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This was a complete model-driven development pipeline. I started with SysML requirements in Cameo, generated C++ code for sensor data processing, and implemented gRPC services for real-time communication. The system was deployed on embedded hardware and validated against automotive safety standards."</div>
-          </div>
-        </article>
-
-        <article class="ts-card">
-          <div class="ts-img-wrap"><img src="images/Business Req → System Architecture.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 05 · CLOUD-NATIVE ARCHITECTURE</div>
-            <div class="ts-title">BUSINESS REQ → SYSTEM ARCHITECTURE</div>
-            <p class="ts-desc">Translated BMW sustainability/circularity requirements into an integrated 3DX–Azure ecosystem, establishing a single source of truth for CO₂ transparency.</p>
-            <div class="ts-tags"><span class="ts-tag hot">BMW</span><span class="ts-tag hot">3DEXPERIENCE</span><span class="ts-tag">Azure Cloud</span></div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This project bridged business sustainability goals with technical architecture. I worked with BMW stakeholders to understand their CO₂ transparency requirements, then designed a cloud-native system using 3DEXPERIENCE for PLM data and Azure for analytics, ensuring complete traceability from business requirements to system implementation."</div>
-          </div>
-        </article>
-
-        <article class="ts-card">
-          <div class="ts-img-wrap"><img src="images/SysArch.png" onclick="openLbox(this.src)" /><img src="images/SW Component Detailed Design.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 06 · ASPICE · SAFETY</div>
-            <div class="ts-title">MBSE & SE PRACTICE LEADERSHIP</div>
-            <p class="ts-desc">Full SysML L0/L1/L2 modeling aligned with ISO 26262 and ASPICE standards. Defined cross-domain consistency and traceability workflows in DNG. </p>
-            <div class="ts-tags"><span class="ts-tag hot">SysML</span><span class="ts-tag hot">ISO 26262</span><span class="ts-tag">ASPICE</span><span class="ts-tag">DNG</span></div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"As the MBSE practice lead, I established the modeling standards and processes for the entire organization. This included creating SysML profiles, defining traceability rules between requirements and architecture, and training teams on ISO 26262 compliant modeling practices. The result was consistent, auditable system designs across all projects."</div>
-          </div>
-        </article>
-
-        <article class="ts-card wide2">
-          <div class="ts-img-wrap"><img src="images/MBSE Metamodel Deployment.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕ ENLARGE</span></div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 07 · V-MODEL LIFECYCLE</div>
-            <div class="ts-title">TOOL DEPLOYMENT OF MBSE METAMODEL</div>
-            <p class="ts-desc">Deployed the structural metamodel backbone that connects Requirements, Safety, and PLE across the entire vehicle lifecycle. This ensures horizontal traceability and prevents architectural silo formation.</p>
-            <div class="ts-tags"><span class="ts-tag hot">Metamodel</span><span class="ts-tag hot">V-Model</span><span class="ts-tag">Product Line Engineering</span><span class="ts-tag">V&V</span></div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This was the foundational metamodel deployment that enabled consistent MBSE across the entire organization. I designed and implemented the core data structures that link requirements management, safety analysis, and product line engineering. This created a unified data model that supports the V-model lifecycle from concept to validation."</div>
-          </div>
-        </article>
-
-        <article class="ts-card">
-          <div class="ts-img-wrap"><img src="images/COM.png" onclick="openLbox(this.src)" /><img src="images/DerivingRequirements.png" onclick="openLbox(this.src)" /><span class="ts-img-zoom-hint">⊕</span></div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 08 · AUTOSAR COM</div>
-            <div class="ts-title">SW ARCHITECTURE — AIRBAG SYSTEMS</div>
-            <p class="ts-desc">Detailed decomposition of the AUTOSAR COM layer into software units. Mapped functional flow and state transitions for safety-critical unit validation.</p>
-            <div class="ts-tags"><span class="ts-tag hot">AUTOSAR Classic</span><span class="ts-tag hot">SW Design</span><span class="ts-tag">ISO 26262</span></div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This was a critical safety architecture for airbag ECU software. I decomposed the AUTOSAR COM layer into atomic software units, ensuring each component met ISO 26262 safety requirements. The design included fault-tolerant communication patterns and state machine logic for reliable airbag deployment under all conditions."</div>
-          </div>
-        </article>
-
-        <article class="ts-card">
-          <div class="ts-img-wrap" title="Click to enlarge">
-            <img src="images/Cameo-3DEXPERIENCE-Migration.png" alt="Cameo to 3DEXPERIENCE Migration Flow" onclick="openLbox(this.src)" />
-            <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
-          </div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 09 · MIGRATION · PLM INTEGRATION</div>
-            <div class="ts-title">CAMEO TO 3DEXPERIENCE MIGRATION</div>
-            <p class="ts-desc">Designed and developed migration plugins enabling seamless system model transformation from Cameo Systems Modeler to the 3DEXPERIENCE Platform, while coordinating testing and integration with Dassault Systèmes R&D for Volkswagen Group onePLM initiatives.</p>
-            <div class="ts-tags">
-              <span class="ts-tag hot">Cameo</span><span class="ts-tag hot">3DEXPERIENCE</span><span class="ts-tag hot">onePLM</span><span class="ts-tag">Migration Plugins</span><span class="ts-tag">Dassault Systèmes</span>
-            </div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"This was a strategic migration initiative that bridged No Magic's modeling environment with Dassault's enterprise PLM platform. I developed custom transformation plugins that preserved model semantics, relationships, and metadata during the migration process. Coordinating directly with Dassault R&D ensured the plugins met enterprise-grade reliability standards and integrated seamlessly with Volkswagen's onePLM deployment."</div>
-          </div>
-        </article>
-
-        <article class="ts-card wide2">
-          <div class="ts-img-wrap white-bg">
-            <img src="images/EA.png" alt="EA/CUBAS" onclick="openLbox(this.src)" />
-            <span class="ts-img-zoom-hint black-text">⊕ ENLARGE</span>
-          </div>
-          <div class="ts-body">
-            <div class="ts-slide-n">SLIDE 10 · CROSS-TOOLCHAIN ARCHITECTURE</div>
-            <div class="ts-title">EA, CUBAS & RHAPSODY: UNIFIED MBSE</div>
-            <p class="ts-desc">Bridged the gap between low-level <strong>Continental CUBAS</strong> ECU implementation (signal-based) and high-level service design. This established a unified source of truth across diverse Business Units. </p>
-            <div class="ts-tags">
-              <span class="ts-tag hot">Enterprise Architect</span><span class="ts-tag hot">CUBAS</span><span class="ts-tag hot">AUTOSAR Classic</span><span class="ts-tag">Rhapsody Sync</span>
-            </div>
-            <button class="ts-note-btn" onclick="toggleNote(this)">▶ DEEP DIVE</button>
-            <div class="ts-note">"I managed the metamodel conflict between legacy signal-centric logic in EA/CUBAS and the service-oriented intent of modern Rhapsody models. This allowed for seamless function migration while maintaining 100% traceability to DNG requirements."</div>
-          </div>
-        </article>
-      </div>
-    </section>
-  </div>
-</div>
 
 <!-- ═══ AWARDS ════════════════════════════════════ -->
 <div class="wrap">
 <section style="padding:96px 0;position:relative">
-  <div class="sec-ghost">07</div>
-  <div class="eyebrow rv"><div class="ey-n">07</div>RECOGNITION<div class="ey-l"></div></div>
+  <div class="sec-ghost">06</div>
+  <div class="eyebrow rv"><div class="ey-n">06</div>RECOGNITION<div class="ey-l"></div></div>
   <h2 class="sh rv">AWARDS &amp;<br/><span class="ghost">ACHIEVEMENTS</span></h2>
 
   <div class="awards-grid">
@@ -1669,65 +1766,122 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
 <div class="personal-section">
 <div class="wrap">
 <section style="padding:96px 0;position:relative" id="beyond">
+
   <div class="sec-ghost" style="color:rgba(192,57,43,.04)">∞</div>
+
   <div class="eyebrow rv" style="color:var(--crimson)">
     <div class="ey-n" style="border-color:var(--crimson);color:var(--crimson)">∞</div>
     BEYOND THE CODE
     <div class="ey-l" style="background:linear-gradient(90deg,var(--crimson),transparent)"></div>
   </div>
-  <h2 class="sh rv">THE HUMAN<br/><span style="-webkit-text-stroke:1px rgba(192,57,43,.28);color:transparent">BEHIND THE MACHINE</span></h2>
+
+  <h2 class="sh rv">
+    THE HUMAN<br/>
+    <span style="-webkit-text-stroke:1px rgba(192,57,43,.28);color:transparent">
+      BEHIND THE MACHINE
+    </span>
+  </h2>
 
   <div class="personal-grid">
+
+    <!-- LEFT COLUMN -->
     <div class="rv">
       <div class="vibe-cards">
 
         <div class="vibe-card wide">
           <span class="vibe-ico">☕</span>
           <div class="vibe-title">// chai.init()</div>
-          <p class="vibe-text">My love for chai is real — a perfectly brewed cup is where my best ideas compile. Maybe we can share one, some good conversation, and some smiles. <em>Simple things, genuine connections.</em></p>
-        </div>
-
-        <div class="vibe-card">
-          <span class="vibe-ico">🌑</span>
-          <div class="vibe-title">// personality.mode</div>
-          <p class="vibe-text">Some days I'm <em>Joe from "You"</em> — quietly intense, hyper-observant, deeply invested. Other days I'm <em>Hope Mikaelson from "Legacies"</em> — powerful, emotional, a little bit of everything.</p>
-          <span class="vibe-tag">Tribird by heart</span>
-        </div>
-
-        <div class="vibe-card">
-          <span class="vibe-ico">🌙</span>
-          <div class="vibe-title">// vibes.json</div>
-          <p class="vibe-text">Mystery, epic love, supernatural energy. Think <em>ControlZ</em> meets <em>Twilight</em> meets <em>Mystic Falls</em> — with a touch of Tribird dark romance. Always the story nobody expected.</p>
-          <span class="vibe-tag">Dark Romance</span>
-          <span class="vibe-tag">Supernatural</span>
-          <span class="vibe-tag">Mystery</span>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="rv d2">
-      <div class="vibe-cards">
-        <div class="vibe-card wide" style="background:rgba(139,0,0,.06);border-color:rgba(192,57,43,.22)">
-          <span class="vibe-ico">🎭</span>
-          <div class="vibe-title">// character.profile</div>
-          <p class="vibe-text" style="font-family:var(--mono);font-size:.72rem;line-height:1.9;letter-spacing:.03em">
-            <span style="color:var(--muted)">name:</span> <em>Yashwanth</em><br/>
-            <span style="color:var(--muted)">archetype:</span> <em>The Architect · The Storyteller</em><br/>
-            <span style="color:var(--muted)">energy:</span> <em>Mystic · Focused · Deeply Curious</em><br/>
-            <span style="color:var(--muted)">alignment:</span> <em>Chaos-Ordered Neutral</em><br/>
-            <span style="color:var(--muted)">loves:</span> <em>Chai · Systems · Dark stories · Real people</em><br/>
-            <span style="color:var(--muted)">hobbies:</span> <em>🚴 Cycling · 🏋️ Fitness · 🌿 Gardening · ✈️ Traveling · 📷 Photography</em><br/>
-            <span style="color:var(--muted)">location:</span> <em>München, DE · 48.1351°N</em>
+          <p class="vibe-text">
+            My love for chai is real a perfectly brewed cup is where many of my best ideas begin.
+            Whether discussing system architecture or exploring new ideas, meaningful conversations often start with a simple cup of chai.
           </p>
         </div>
-        <div class="vibe-card wide">
-          <span class="vibe-ico">🕊️</span>
-          <div class="vibe-title">// connect.human()</div>
-          <p class="vibe-text">I believe the best collaborations start with genuine human connection. If you find something here that resonates — a project, an idea, or just a good conversation over chai — <em>let's talk.</em></p>
+
+        <div class="vibe-card">
+          <span class="vibe-ico">🧠</span>
+          <div class="vibe-title">// mindset.mode</div>
+          <p class="vibe-text">
+            I enjoy solving complex problems and designing systems that scale. 
+            Curiosity, structure, and creativity shape how I approach both software engineering and system architecture.
+          </p>
+          <span class="vibe-tag">Systems Thinking</span>
+          <span class="vibe-tag">Curiosity</span>
         </div>
+
+        <div class="vibe-card">
+          <span class="vibe-ico">🌍</span>
+          <div class="vibe-title">// life.balance</div>
+          <p class="vibe-text">
+            Outside of engineering, I enjoy cycling, fitness, gardening, traveling, and photography. 
+            These activities help me recharge and often bring fresh perspectives to problem-solving.
+          </p>
+          <span class="vibe-tag">Cycling</span>
+          <span class="vibe-tag">Travel</span>
+          <span class="vibe-tag">Photography</span>
+        </div>
+
       </div>
     </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="rv d2">
+      <div class="vibe-cards">
+
+        <div class="vibe-card wide" style="background:rgba(139,0,0,.06);border-color:rgba(192,57,43,.22)">
+          <span class="vibe-ico">🎭</span>
+          <div class="vibe-title">// profile.summary</div>
+
+          <p class="vibe-text" style="font-family:var(--mono);font-size:.72rem;line-height:1.9;letter-spacing:.03em">
+
+            <span style="color:var(--muted)">name:</span> <em>Yashwanth</em><br/>
+
+            <span style="color:var(--muted)">role:</span> 
+            <em>Software Engineer · Systems Architect</em><br/>
+
+            <span style="color:var(--muted)">focus:</span> 
+            <em>MBSE · Software Engineering · System Integration</em><br/>
+
+            <span style="color:var(--muted)">technologies:</span> 
+            <em>Java · C++ · Python · Spring · Quarkus · Angular</em><br/>
+
+            <span style="color:var(--muted)">interests:</span> 
+<em>
+Complex Systems · Vehicle Architecture · Model-Based Systems Engineering · SDV Platforms · Engineering Toolchains
+</em><br/>
+
+            <span style="color:var(--muted)">hobbies:</span> 
+            <em>🚴 Cycling · 🏋️ Fitness · 🌿 Gardening · ✈️ Traveling · 📷 Photography</em><br/>
+
+            <span style="color:var(--muted)">location:</span> 
+            <em>München, DE</em>
+
+          </p>
+        </div>
+
+        <div class="vibe-card wide">
+  <span class="vibe-ico">🤝</span>
+  <div class="vibe-title">// connect.human()</div>
+
+  <p class="vibe-text">
+    I believe the best collaborations begin with genuine human connection.
+    If something here resonates with you...a project, an idea, or a conversation about
+    engineering and systems...I'd be happy to connect.
+  </p>
+
+  <p class="vibe-text" style="margin-top:12px;font-size:.9rem;color:var(--muted)">
+    Curious how colleagues describe working with me? 
+    <a href="https://www.linkedin.com/in/yashwanth-parameswaran-a323b894/details/recommendations/"
+       target="_blank"
+       style="color:var(--crimson);text-decoration:none;font-weight:600">
+       Read LinkedIn Recommendations →
+    </a>
+  </p>
+
+</div>
+
+      </div>
+    </div>
+
   </div>
 
 </section>
