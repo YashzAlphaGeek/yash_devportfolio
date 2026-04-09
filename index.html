@@ -184,6 +184,7 @@ letter-spacing:.04em;
   background: var(--cyan-dim);
 }
 
+/* ===== DEEP DIVE BUTTON ===== */
 .ts-note-btn {
   background: var(--wire);
   border: 1px solid var(--wire2);
@@ -197,8 +198,13 @@ letter-spacing:.04em;
   transition: all 0.2s;
 }
 
-.ts-note-btn:hover { border-color: var(--cyan); background: var(--wire2); }
+.ts-note-btn:hover {
+  border-color: var(--cyan);
+  background: var(--wire2);
+}
 
+
+/* ===== DEEP DIVE CONTENT ===== */
 .ts-note {
   display: none;
   padding-top: 15px;
@@ -207,6 +213,11 @@ letter-spacing:.04em;
   font-style: italic;
   border-top: 1px solid var(--wire);
   margin-top: 15px;
+}
+
+/* ACTIVE STATE */
+.ts-note.open {
+  display: block;
 }
 
 .white-bg { background: #ffffff !important; }
@@ -1727,36 +1738,48 @@ footer{border-top:1px solid var(--wire2);padding:20px 40px;
     </a>
   </div>
 </div>
-<div class="pc" data-cat="backend">
+<div class="pc" data-cat="backend" style="overflow:visible;">
   <div class="pvis-img" onclick="openLbox(this.querySelector('img').src)">
     <img src="images/NoteMe.png"
          alt="NoteMe — Mobile Note Taking App Login Screen"
          onerror="this.parentElement.style.display='none'"/>
     <span class="ts-img-zoom-hint">⊕ ENLARGE</span>
   </div>
+
   <div class="pb">
-    <div class="p-num">PROJECT // 10 · MOBILE · ANDROID</div>
+    <div class="p-num">PROJECT // 10 · MOBILE · ANDROID · GCP</div>
     <div class="p-title">NOTEME</div>
+
     <p class="p-desc">
-      A mobile note-taking app that keeps you alert, engaged, and organised. Features secure
-      login, create/edit/delete notes, settings customisation, and a clean sign-out flow with
-      feedback. Effective note-taking — condensed, structured, and always at hand.
+      A Firebase-backed Android note-taking app with real-time sync, secure authentication,
+      and event-driven data updates.
     </p>
+
     <div class="p-tags">
       <span class="ptag">Android</span>
-      <span class="ptag">Mobile</span>
       <span class="ptag">Java</span>
-      <span class="ptag">Notes</span>
-      <span class="ptag">UI/UX</span>
+      <span class="ptag">Firebase</span>
+      <span class="ptag">Google Cloud</span>
     </div>
+
     <a href="https://github.com/YashzAlphaGeek/NoteMe"
        target="_blank"
-       class="p-link">
+       class="p-link"
+       style="margin-top:16px;display:inline-flex;">
       VIEW ON GITHUB →
     </a>
+
+    <button class="ts-note-btn" onclick="toggleNote(this)" style="margin-top:14px;">
+      ▶ DEEP DIVE
+    </button>
+
+    <!-- ✅ NO inline style here -->
+    <div class="ts-note">
+      Your deep dive content...
+    </div>
   </div>
 </div>
-  </div> <!-- end of proj-grid -->
+  </div>  <!-- end of proj-grid -->
 
 <div class="proj-note" style="text-align:center; margin-top:24px; font-style:italic; color:rgba(255,255,255,0.7);">
   And many more projects are in my private repositories available upon request.
@@ -2028,16 +2051,14 @@ function toggleSk(hdr){
   hdr.nextElementSibling.style.display=b.classList.contains('open')?'flex':'none';
 }
 
-/* ── Interview note toggle ──────── */
 function toggleNote(btn){
-  const note=btn.nextElementSibling;
-  if(note.style.display==='block'){
-    note.style.display='none';
-    btn.textContent='▶ DEEP DIVE';
-  }else{
-    note.style.display='block';
-    btn.textContent='▼ DEEP DIVE';
-  }
+  const note = btn.parentElement.querySelector('.ts-note');
+
+  note.classList.toggle('open');
+
+  btn.textContent = note.classList.contains('open')
+    ? '▼ DEEP DIVE'
+    : '▶ DEEP DIVE';
 }
 
 /* ── Lightbox ───────────────────── */
